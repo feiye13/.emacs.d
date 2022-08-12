@@ -23,6 +23,7 @@
 (require 'init-lsp-bridge)
 ;;(require 'init-flymake)
 (require 'init-web)
+(require 'init-rust-mode)
 
 (require 'init-org)
 (require 'init-markdown)

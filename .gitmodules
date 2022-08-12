@@ -31,3 +31,6 @@
 [submodule "meow"]
 	path = lisp/packages/meow
 	url = https://github.com/meow-edit/meow.git
+[submodule "rust-mode"]
+	path = lisp/packages/rust-mode
+	url = https://github.com/rust-lang/rust-mode.git

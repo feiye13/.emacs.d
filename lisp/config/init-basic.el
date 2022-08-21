@@ -21,13 +21,13 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p) ;; 以 y/n代表 yes/no
-(setq use-short-answers t) ;; 用 y/n 代替 yes/no
+;; (setq use-short-answers t) ;; 用 y/n 代替 yes/no
 (electric-pair-mode t) ;; 括号补全
 (show-paren-mode t) ;; 括号匹配提示
 (blink-cursor-mode -1) ;; 关闭光标闪动
 (delete-selection-mode 1) ;; 输入字符替换选中的文本
 (setq-default indent-tabs-mode nil) ;; only use spaces instead of TAB, use C-q TAB to input the TAB char
-(setq-default tab-width 2) ;; make tab-width always 2
+(setq-default tab-width 4) ;; make tab-width always 4
 (global-linum-mode 1) ;; 显示行号
 (global-hl-line-mode 1) ;; 高亮光标所在行
 ;; (setq-default cursor-type '(bar . 2))

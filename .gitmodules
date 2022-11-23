@@ -25,9 +25,6 @@
 [submodule "auto-save"]
 	path = lisp/packages/auto-save
 	url = https://github.com/manateelazycat/auto-save.git
-[submodule "snails"]
-	path = lisp/packages/snails
-	url = https://github.com/manateelazycat/snails.git
 [submodule "meow"]
 	path = lisp/packages/meow
 	url = https://github.com/meow-edit/meow.git

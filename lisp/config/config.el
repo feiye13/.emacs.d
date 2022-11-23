@@ -16,7 +16,7 @@
 (require 'init-vertico)
 (require 'init-orderless)
 (require 'init-marginalia)
-(require 'init-snails)
+
 (require 'init-meow)
 (require 'init-key)
 (require 'init-yasnippet)

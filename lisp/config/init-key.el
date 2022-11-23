@@ -10,6 +10,6 @@
 
 
 ;; snails
-(global-set-key (kbd "C-, C-s") 'snails)
+;; (global-set-key (kbd "C-, C-s") 'snails)
 
 (provide 'init-key)

@@ -31,3 +31,6 @@
 [submodule "rust-mode"]
 	path = lisp/packages/rust-mode
 	url = https://github.com/rust-lang/rust-mode.git
+[submodule "emacs-application-framework"]
+	path = lisp/packages/emacs-application-framework
+	url = https://github.com/emacs-eaf/emacs-application-framework.git

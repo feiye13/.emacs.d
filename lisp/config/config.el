@@ -28,6 +28,7 @@
 (require 'init-org)
 (require 'init-markdown)
 
+(require 'init-eaf)
 
 
 ;; (require 'init-packages)

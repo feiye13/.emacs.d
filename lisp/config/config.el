@@ -29,6 +29,8 @@
 (require 'init-markdown)
 
 (require 'init-eaf)
+(require 'init-blink-search)
+(require 'init-popweb)
 
 
 ;; (require 'init-packages)

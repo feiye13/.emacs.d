@@ -3,9 +3,11 @@
 
 (require 'eaf-music-player)
 (require 'eaf-browser)
+(require 'eaf-terminal)
 (require 'eaf-markdown-previewer)
 (require 'eaf-rss-reader)
 (require 'eaf-vue-demo)
+(require 'eaf-camera)
 (require 'eaf-pdf-viewer)
 (require 'eaf-file-sender)
 (require 'eaf-video-player)

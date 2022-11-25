@@ -34,3 +34,9 @@
 [submodule "emacs-application-framework"]
 	path = lisp/packages/emacs-application-framework
 	url = https://github.com/emacs-eaf/emacs-application-framework.git
+[submodule "lisp/packages/blink-search"]
+	path = lisp/packages/blink-search
+	url = https://github.com/manateelazycat/blink-search.git
+[submodule "lisp/packages/popweb"]
+	path = lisp/packages/popweb
+	url = https://github.com/manateelazycat/popweb.git

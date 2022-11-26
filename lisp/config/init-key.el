@@ -2,8 +2,8 @@
 
 
 ;; meow
-(meow-leader-define-key
- '("," . meow-keypad-start))
+;; (meow-leader-define-key
+;;  '("," . meow-keypad-start))
 
 ;; recentf
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)

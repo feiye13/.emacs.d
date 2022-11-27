@@ -17,7 +17,7 @@
 (require 'init-orderless)
 (require 'init-marginalia)
 
-;; (require 'init-meow)
+(require 'init-meow)
 (require 'init-key)
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
@@ -31,6 +31,7 @@
 (require 'init-eaf)
 (require 'init-blink-search)
 (require 'init-popweb)
+(require 'init-sort-tab)
 
 
 ;; (require 'init-packages)

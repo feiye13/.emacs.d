@@ -40,3 +40,6 @@
 [submodule "lisp/packages/popweb"]
 	path = lisp/packages/popweb
 	url = https://github.com/manateelazycat/popweb.git
+[submodule "lisp/packages/sort-tab"]
+	path = lisp/packages/sort-tab
+	url = https://github.com/manateelazycat/sort-tab.git

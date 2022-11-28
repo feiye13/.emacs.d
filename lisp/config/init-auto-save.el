@@ -1,3 +1,7 @@
+;;; init-auto-save.el --- auto-save
+;;; Commentary:
+
+;;; Code:
 
 (require 'auto-save)
 
@@ -5,5 +9,4 @@
 (setq auto-save-silent t)
 
 (provide 'init-auto-save)
-
-
+;;; init-auto-save.el ends here

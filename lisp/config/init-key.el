@@ -1,3 +1,8 @@
+;;; init-key.el --- key
+;;; Commentary:
+
+;;; Code:
+
 
 
 
@@ -129,3 +134,4 @@
 
 
 (provide 'init-key)
+;;; init-key.el ends here

@@ -1,3 +1,8 @@
+;;; init-font.el --- font
+;;; Commentary:
+
+;;; Code:
+
 
 (defun load-font-setup()
   (cond ((eq window-system 'pgtk)
@@ -57,4 +62,5 @@
   (add-hook hook #'(lambda () (load-font-setup))))
 
 (provide 'init-font)
+;;; init-font.el ends here
 

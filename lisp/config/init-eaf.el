@@ -1,3 +1,8 @@
+;;; init-eaf.el --- eaf
+;;; Commentary:
+
+;;; Code:
+
 
 (require 'eaf)
 
@@ -30,3 +35,4 @@
 
 
 (provide 'init-eaf)
+;;; init-eaf.el ends here

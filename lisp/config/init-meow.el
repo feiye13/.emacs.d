@@ -1,3 +1,8 @@
+;;; init-meow.el --- meow
+;;; Commentary:
+
+;;; Code:
+
 
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-qwerty)
@@ -92,3 +97,4 @@
 
 
 (provide 'init-meow)
+;;; init-meow.el ends here

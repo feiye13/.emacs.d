@@ -1,3 +1,8 @@
+;;; init-general.el --- general
+;;; Commentary:
+
+;;; Code:
+
 
 
 
@@ -16,3 +21,4 @@
 
 
 (provide 'init-general)
+;;; init-general.el ends here

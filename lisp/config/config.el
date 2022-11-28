@@ -11,6 +11,11 @@
 (require 'init-basic)
 (require 'init-ui)
 (require 'init-font)
+(require 'init-general)
+
+(require 'lazy-load)
+(require 'one-key)
+
 
 (require 'init-auto-save)
 (require 'init-vertico)
@@ -19,6 +24,7 @@
 
 (require 'init-meow)
 (require 'init-key)
+
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
 ;;(require 'init-flymake)

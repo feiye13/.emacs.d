@@ -16,7 +16,7 @@
 (require 'eaf-org-previewer)
 (require 'eaf-jupyter)
 (require 'eaf-system-monitor)
-(require 'eaf-2048)
+;; (require 'eaf-2048)
 (require 'eaf-git)
 (require 'eaf-file-manager)
 (require 'eaf-mindmap)
@@ -24,6 +24,9 @@
 (require 'eaf-demo)
 (require 'eaf-image-viewer)
 
+;; eaf-terminal
+(setq eaf-terminal-font-family "Fantasque Sans Mono")
+(setq eaf-terminal-font-size 18)
 
 
 (provide 'init-eaf)

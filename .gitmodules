@@ -43,3 +43,9 @@
 [submodule "lisp/packages/sort-tab"]
 	path = lisp/packages/sort-tab
 	url = https://github.com/manateelazycat/sort-tab.git
+[submodule "lisp/packages/lazy-load"]
+	path = lisp/packages/lazy-load
+	url = https://github.com/manateelazycat/lazy-load.git
+[submodule "lisp/packages/one-key"]
+	path = lisp/packages/one-key
+	url = https://github.com/manateelazycat/one-key.git

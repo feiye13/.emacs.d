@@ -3,8 +3,11 @@
 
 ;;; Code:
 
-(setq gc-cons-threshold most-positive-fixnum)
-(add-hook 'after-init-hook #'(lambda () (setq gc-cons-threshold 800000)))
+
+(let (;; temporarily increase `gc-cons-threshold' when loading to speed up startup.
+      (gc-cons-threshold most-positive-fixnum)
+      ;; Empty to avoid analyzing files when loading remote files.
+      (file-name-handler-alist nil))
 
 
 
@@ -38,13 +41,13 @@
 (require 'init-blink-search)
 (require 'init-popweb)
 (require 'init-sort-tab)
-
+(require 'init-insert-translated-name)
 
 ;; (require 'init-packages)
 ;; (require 'init-completion)
 ;; (require 'init-tools)
 
-
+)
 
 
 

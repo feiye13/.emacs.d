@@ -49,3 +49,15 @@
 [submodule "lisp/packages/one-key"]
 	path = lisp/packages/one-key
 	url = https://github.com/manateelazycat/one-key.git
+[submodule "lisp/packages/deno-bridge"]
+	path = lisp/packages/deno-bridge
+	url = https://github.com/manateelazycat/deno-bridge.git
+[submodule "lisp/packages/emacs-websocket"]
+	path = lisp/packages/emacs-websocket
+	url = https://github.com/ahyatt/emacs-websocket.git
+[submodule "lisp/packages/insert-translated-name"]
+	path = lisp/packages/insert-translated-name
+	url = https://github.com/manateelazycat/insert-translated-name.git
+[submodule "lisp/packages/pangu-spacing"]
+	path = lisp/packages/pangu-spacing
+	url = https://github.com/coldnew/pangu-spacing.git

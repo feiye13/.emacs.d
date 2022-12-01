@@ -9,7 +9,7 @@
 ;;; Meow
 (lazy-load-global-keys
  '(
-   ("C-, m" . meow-global-mode)
+   ("C-," . meow-global-mode)
    )
  "meow")
 
@@ -29,7 +29,7 @@
 
 (lazy-load-set-keys
  '(
-   ("C-c f" . one-key-menu-files)   ;打开文件菜单
+   ("s-c f" . one-key-menu-files)   ;打开文件菜单
    ))
 
 
@@ -44,33 +44,39 @@
 
 (lazy-load-set-keys
  '(
-   ("C-c b" . one-key-menu-buffer)
+   ("s-c b" . one-key-menu-buffer)
    ("s-q" . kill-current-buffer)
    ))
 
 
 
 ;;; Blink-search
-(global-set-key (kbd "C-c s") 'blink-search)
+(global-set-key (kbd "s-s") 'blink-search)
 
 
 
 ;;; Popweb
-(one-key-create-menu
- "POPWEB"
- '(
-   (("y" . "youdao pointer") . popweb-dict-youdao-pointer)
-   (("y" . "youdao input") . popweb-dict-youdao-input)
-   (("b" . "bing pointer") . popweb-dict-bing-pointer)
-   (("y" . "bing input") . popweb-dict-bing-input)
-   )
- t)
-
 (lazy-load-global-keys
  '(
-   ("C-c t" . one-key-menu-popweb)
+   ("y" . popweb-dict-youdao-pointer)
+   ("Y" . popweb-dict-youdao-input)
+   ("b" . popweb-dict-bing-pointer)
+   ("B" . popweb-dict-bing-input)
    )
- "init-popweb")
+ "init-popweb"
+ "s-t")
+
+
+
+;;; Insert-translated-name
+(lazy-load-global-keys
+ '(
+   ("i" . insert-translated-name-insert)
+   ("I" . insert-translated-name-insert-with-camel)
+   ("-" . insert-translated-name-insert-with-underline)
+   )
+ "init-insert-translated-name"
+ "s-t")
 
 
 
@@ -124,13 +130,21 @@
 
 
 
-;;;
+;;; lsp-bridge
 (lazy-load-global-keys
  '(
    ("M-n" . lsp-bridge-diagnostic-jump-next)
    ("M-p" . lsp-bridge-diagnostic-jump-prev)
    )
  "init-lsp-bridge")
+
+(lazy-load-global-keys
+ '(
+   ("h" . lsp-bridge-toggle-sdcv-helper)
+   )
+ "init-lsp-bridge"
+ "s-t")
+
 
 
 (provide 'init-key)

@@ -5,7 +5,7 @@
 
 
 
-
+;;; Define function
 (defun my/emacs-config ()
   "My Emacs config."
   (interactive)
@@ -17,6 +17,14 @@
   (interactive)
   (switch-to-buffer "*scratch*"))
 
+
+
+;;; Edited configuration
+;; pangu-spacing
+(require 'pangu-spacing)
+
+(global-pangu-spacing-mode 1)
+(setq pangu-spacing-real-insert-separtor t)
 
 
 

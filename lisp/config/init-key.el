@@ -51,11 +51,17 @@
 
 
 ;;; Blink-search
-(global-set-key (kbd "s-s") 'blink-search)
+;;; blink 搜索插件
+(lazy-load-global-keys
+ '(
+   ("s-s" . blink-search)
+   )
+ "init-blink-search")
 
 
 
 ;;; Popweb
+;;; 翻译
 (lazy-load-global-keys
  '(
    ("y" . popweb-dict-youdao-pointer)
@@ -69,6 +75,7 @@
 
 
 ;;; Insert-translated-name
+;;; 写的中文变量或函数名翻译成英文
 (lazy-load-global-keys
  '(
    ("i" . insert-translated-name-insert)
@@ -133,14 +140,14 @@
 ;;; lsp-bridge
 (lazy-load-global-keys
  '(
-   ("M-n" . lsp-bridge-diagnostic-jump-next)
-   ("M-p" . lsp-bridge-diagnostic-jump-prev)
+   ("M-n" . lsp-bridge-diagnostic-jump-next) ;显示下一个错误
+   ("M-p" . lsp-bridge-diagnostic-jump-prev) ;显示上一个错误
    )
  "init-lsp-bridge")
 
 (lazy-load-global-keys
  '(
-   ("h" . lsp-bridge-toggle-sdcv-helper)
+   ("h" . lsp-bridge-toggle-sdcv-helper) ;英文助手
    )
  "init-lsp-bridge"
  "s-t")

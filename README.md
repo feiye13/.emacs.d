@@ -23,6 +23,10 @@ git submodule foreach git pull --rebase
   - [EAF](https://github.com/emacs-eaf/emacs-application-framework)
   - [popweb](https://github.com/manateelazycat/popweb)
 
+- Fonts
+  - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+  - [HarmonyOS Sans](https://gitee.com/openharmony/resources)
+
 ## LSP
 
 查看：[lsp-bridge](https://github.com/manateelazycat/lsp-bridge#supported-language-servers)

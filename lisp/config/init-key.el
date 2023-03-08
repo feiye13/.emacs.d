@@ -9,13 +9,17 @@
 ;;; Meow
 (lazy-load-global-keys
  '(
-   ("C-," . meow-global-mode)
+   ("C-." . meow-global-mode)
    )
  "meow")
 
 (meow-define-keys
     'insert
   '("C-;" . meow-insert-exit))
+
+(meow-leader-define-key
+ '("," . meow-keypad-start))
+
 
 
 ;;; Files
@@ -29,7 +33,7 @@
 
 (lazy-load-set-keys
  '(
-   ("s-c f" . one-key-menu-files)   ;打开文件菜单
+   ("C-, f" . one-key-menu-files)   ;打开文件菜单
    ))
 
 
@@ -44,7 +48,7 @@
 
 (lazy-load-set-keys
  '(
-   ("s-c b" . one-key-menu-buffer)
+   ("C-, b" . one-key-menu-buffer)
    ("s-q" . kill-current-buffer)
    ))
 
@@ -70,7 +74,7 @@
    ("B" . popweb-dict-bing-input)
    )
  "init-popweb"
- "s-t")
+ "C-, t")
 
 
 
@@ -83,7 +87,7 @@
    ("-" . insert-translated-name-insert-with-underline)
    )
  "init-insert-translated-name"
- "s-t")
+ "C-, t")
 
 
 
@@ -150,7 +154,7 @@
    ("h" . lsp-bridge-toggle-sdcv-helper) ;英文助手
    )
  "init-lsp-bridge"
- "s-t")
+ "C-, t")
 
 
 

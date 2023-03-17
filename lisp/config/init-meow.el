@@ -94,6 +94,8 @@
 (meow-setup)
 (meow-global-mode 1)
 
+(add-to-list 'meow-mode-state-list '(eaf-mode . insert))
+(add-to-list 'meow-mode-state-list '(blink-search-mode . insert))
 
 
 (provide 'init-meow)

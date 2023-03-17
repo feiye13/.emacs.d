@@ -7,11 +7,11 @@
 
 
 ;;; Meow
-(lazy-load-global-keys
- '(
-   ("C-." . meow-global-mode)
-   )
- "meow")
+;; (lazy-load-global-keys
+;;  '(
+;;    ("C-." . meow-global-mode)
+;;    )
+;;  "meow")
 
 (meow-define-keys
     'insert

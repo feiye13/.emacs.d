@@ -28,7 +28,7 @@
 (delete-selection-mode 1) ;; 输入字符替换选中的文本
 (setq-default indent-tabs-mode nil) ;; only use spaces instead of TAB, use C-q TAB to input the TAB char
 (setq-default tab-width 4) ;; make tab-width always 4
-(global-linum-mode 1) ;; 显示行号
+(global-display-line-numbers-mode 1) ;; 显示行号
 (global-hl-line-mode 1) ;; 高亮光标所在行
 ;; (setq-default cursor-type '(bar . 2))
 (global-auto-revert-mode 1) ;; 读取文件在 Emacs 外的修改

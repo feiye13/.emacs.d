@@ -42,6 +42,7 @@
 (require 'init-popweb)
 (require 'init-sort-tab)
 (require 'init-insert-translated-name)
+(require 'init-awesome-tray)
 
 ;; (require 'init-packages)
 ;; (require 'init-completion)

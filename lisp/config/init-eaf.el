@@ -26,17 +26,16 @@
 (require 'eaf-demo)
 (require 'eaf-image-viewer)
 
-;; eaf-terminal
 (setq eaf-terminal-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-terminal-font-size 22)
 
-;; eaf-browser
 (setq eaf-webengine-default-zoom (if (> (frame-pixel-width) 3000) 2 1))
 (setq eaf-webengine-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-webengine-fixed-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-webengine-serif-font-family "TsangerJinKai03")
 (setq eaf-webengine-font-size 22)
 (setq eaf-webengine-fixed-font-size 22)
+(setq eaf-browser-enable-adblocker t)
 
 (setq eaf-file-manager-show-hidden-file nil)
 

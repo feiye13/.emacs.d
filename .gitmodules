@@ -61,3 +61,9 @@
 [submodule "lisp/packages/pangu-spacing"]
 	path = lisp/packages/pangu-spacing
 	url = https://github.com/coldnew/pangu-spacing.git
+[submodule "lisp/packages/awesome-tray"]
+	path = lisp/packages/awesome-tray
+	url = https://github.com/manateelazycat/awesome-tray.git
+[submodule "lisp/packages/yasnippet-snippets"]
+	path = lisp/packages/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git

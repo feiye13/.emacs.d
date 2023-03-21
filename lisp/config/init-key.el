@@ -33,7 +33,7 @@
 
 (lazy-load-set-keys
  '(
-   ("C-, f" . one-key-menu-files)   ;打开文件菜单
+   ("s-f" . one-key-menu-files)   ;打开文件菜单
    ))
 
 
@@ -74,7 +74,7 @@
    ("B" . popweb-dict-bing-input)
    )
  "init-popweb"
- "C-, t")
+ "s-t")
 
 
 
@@ -87,7 +87,7 @@
    ("-" . insert-translated-name-insert-with-underline)
    )
  "init-insert-translated-name"
- "C-, t")
+ "s-t")
 
 
 
@@ -154,7 +154,7 @@
    ("h" . lsp-bridge-toggle-sdcv-helper) ;英文助手
    )
  "init-lsp-bridge"
- "C-, t")
+ "s-t")
 
 
 

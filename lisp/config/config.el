@@ -21,6 +21,8 @@
 
 
 (require 'init-auto-save)
+(require 'init-fingertip)
+
 (require 'init-vertico)
 (require 'init-orderless)
 (require 'init-marginalia)
@@ -33,7 +35,9 @@
 ;;(require 'init-flymake)
 (require 'init-web)
 (require 'init-rust-mode)
+(require 'init-treesit)
 
+(require 'init-editing-utils)
 (require 'init-org)
 (require 'init-markdown)
 

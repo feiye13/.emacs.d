@@ -22,7 +22,7 @@
 (scroll-bar-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p) ;; 以 y/n 代表 yes/no
 ;; (setq use-short-answers t) ;; 用 y/n 代替 yes/no
-(electric-pair-mode t) ;; 括号补全
+;; (electric-pair-mode t) ;; 括号补全
 (show-paren-mode t) ;; 括号匹配提示
 (blink-cursor-mode -1) ;; 关闭光标闪动
 (delete-selection-mode 1) ;; 输入字符替换选中的文本

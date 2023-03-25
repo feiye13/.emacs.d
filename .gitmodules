@@ -67,3 +67,6 @@
 [submodule "lisp/packages/yasnippet-snippets"]
 	path = lisp/packages/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "lisp/packages/fingertip"]
+	path = lisp/packages/fingertip
+	url = https://github.com/manateelazycat/fingertip.git

@@ -19,12 +19,6 @@
 
 
 
-;;; Edited configuration
-;; pangu-spacing
-(require 'pangu-spacing)
-
-(global-pangu-spacing-mode 1)
-(setq pangu-spacing-real-insert-separtor t)
 
 
 

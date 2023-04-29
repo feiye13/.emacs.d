@@ -37,6 +37,7 @@
 (setq inhibit-compacting-font-caches t) ;; 使用字体缓存，避免卡顿
 (setq frame-resize-pixelwise t) ;; 设置缩放的模式,避免 Mac 平台最大化窗口以后右边和下边有空隙(KDE 下也可避免空隙)
 (save-place-mode 1) ;; 保存光标位置
+(setq confirm-kill-processes nil) ;; 退出自动杀掉进程
 
 (add-hook 'after-init-hook 'recentf-mode)
 (setq recentf-max-saved-items 50)

@@ -25,6 +25,8 @@
 (require 'eaf-mindmap)
 (require 'eaf-demo)
 (require 'eaf-image-viewer)
+(require 'eaf-js-video-player)
+(require 'eaf-pyqterminal)
 
 (setq eaf-terminal-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-terminal-font-size 22)

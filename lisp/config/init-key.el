@@ -144,8 +144,8 @@
 ;;; lsp-bridge
 (lazy-load-global-keys
  '(
-   ("M-n" . lsp-bridge-diagnostic-jump-next) ;显示下一个错误
-   ("M-p" . lsp-bridge-diagnostic-jump-prev) ;显示上一个错误
+   ;; ("M-n" . lsp-bridge-diagnostic-jump-next) ;显示下一个错误
+   ;; ("M-p" . lsp-bridge-diagnostic-jump-prev) ;显示上一个错误
    )
  "init-lsp-bridge")
 

@@ -50,6 +50,7 @@
         (python-mode     . python-ts-mode)
         (sh-mode         . bash-ts-mode)
         (typescript-mode . typescript-ts-mode)
+        (rust-mode       . rust-ts-mode)
         ))
 
 (add-hook 'markdown-mode-hook #'(lambda () (treesit-parser-create 'markdown)))
@@ -67,6 +68,8 @@
 (add-hook 'ielm-mode-hook #'(lambda () (treesit-parser-create 'elisp)))
 (add-hook 'json-mode-hook #'(lambda () (treesit-parser-create 'json)))
 (add-hook 'go-mode-hook #'(lambda () (treesit-parser-create 'go)))
+(add-hook 'java-mode-hook #'(lambda () (treesit-parser-create 'java)))
+(add-hook 'java-ts-mode-hook #'(lambda () (treesit-parser-create 'java)))
 
 (provide 'init-treesit)
 

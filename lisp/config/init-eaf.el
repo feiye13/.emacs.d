@@ -31,16 +31,18 @@
 (setq eaf-terminal-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-terminal-font-size 22)
 
-(setq eaf-webengine-default-zoom (if (> (frame-pixel-width) 3000) 2 1))
+(setq eaf-webengine-default-zoom 1.2)
 (setq eaf-webengine-font-family "WenQuanYi Micro Hei Mono")
 (setq eaf-webengine-fixed-font-family "WenQuanYi Micro Hei Mono")
-(setq eaf-webengine-serif-font-family "TsangerJinKai03")
+(setq eaf-webengine-serif-font-family "LXGW WenKai Mono")
 (setq eaf-webengine-font-size 22)
 (setq eaf-webengine-fixed-font-size 22)
 (setq eaf-browser-enable-adblocker t)
 
 (setq eaf-file-manager-show-hidden-file nil)
 
+(setq eaf-pyqterminal-font-family "LXGW WenKai Mono")
+(setq eaf-pyqterminal-font-size 24)
 
 (provide 'init-eaf)
 ;;; init-eaf.el ends here

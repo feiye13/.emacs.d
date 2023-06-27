@@ -24,12 +24,17 @@ git submodule foreach git pull --rebase
   - [popweb](https://github.com/manateelazycat/popweb)
 
 - Fonts
-  - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
-  - [HarmonyOS Sans](https://gitee.com/openharmony/resources)
+  - ~~[Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)~~
+  - ~~[HarmonyOS Sans](https://gitee.com/openharmony/resources)~~
+  - [LXGW WenKai Mono](https://github.com/lxgw/LxgwWenKai)
 
 ## LSP
 
 查看：[lsp-bridge](https://github.com/manateelazycat/lsp-bridge#supported-language-servers)
+
+## tree-sitter
+
+M-x:`treesit-install-language-grammar`
 
 ## 其它配置
 

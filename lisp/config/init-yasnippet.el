@@ -7,7 +7,7 @@
 (require 'yasnippet)
 (add-hook 'prog-mode-hook 'yas-global-mode 1)
 
-;;(require 'yasnippet-snippets)
+(require 'yasnippet-snippets)
 
 (provide 'init-yasnippet)
 

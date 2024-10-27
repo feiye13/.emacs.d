@@ -1,72 +1,99 @@
 [submodule "lisp/packages/posframe"]
-	path = lisp/packages/posframe
-	url = https://github.com/tumashu/posframe.git
+path = lisp/packages/posframe
+url = https://github.com/tumashu/posframe.git
+
 [submodule "lisp/packages/markdown-mode"]
-	path = lisp/packages/markdown-mode
-	url = https://github.com/jrblevin/markdown-mode.git
+path = lisp/packages/markdown-mode
+url = https://github.com/jrblevin/markdown-mode.git
+
 [submodule "lisp/packages/yasnippet"]
-	path = lisp/packages/yasnippet
-	url = https://github.com/joaotavora/yasnippet.git
+path = lisp/packages/yasnippet
+url = https://github.com/joaotavora/yasnippet.git
+
 [submodule "lisp/packages/lsp-bridge"]
-	path = lisp/packages/lsp-bridge
-	url = https://github.com/manateelazycat/lsp-bridge.git
+path = lisp/packages/lsp-bridge
+url = https://github.com/manateelazycat/lsp-bridge.git
+
 [submodule "vertico"]
-	path = lisp/packages/vertico
-	url = https://github.com/minad/vertico.git
+path = lisp/packages/vertico
+url = https://github.com/minad/vertico.git
+
 [submodule "orderless"]
-	path = lisp/packages/orderless
-	url = https://github.com/oantolin/orderless.git
+path = lisp/packages/orderless
+url = https://github.com/oantolin/orderless.git
+
 [submodule "marginalia"]
-	path = lisp/packages/marginalia
-	url = https://github.com/minad/marginalia.git
+path = lisp/packages/marginalia
+url = https://github.com/minad/marginalia.git
+
 [submodule "web-mode"]
-	path = lisp/packages/web-mode
-	url = https://github.com/fxbois/web-mode.git
+path = lisp/packages/web-mode
+url = https://github.com/fxbois/web-mode.git
+
 [submodule "auto-save"]
-	path = lisp/packages/auto-save
-	url = https://github.com/manateelazycat/auto-save.git
+path = lisp/packages/auto-save
+url = https://github.com/manateelazycat/auto-save.git
+
 [submodule "meow"]
-	path = lisp/packages/meow
-	url = https://github.com/meow-edit/meow.git
+path = lisp/packages/meow
+url = https://github.com/meow-edit/meow.git
+
 [submodule "rust-mode"]
-	path = lisp/packages/rust-mode
-	url = https://github.com/rust-lang/rust-mode.git
+path = lisp/packages/rust-mode
+url = https://github.com/rust-lang/rust-mode.git
+
 [submodule "emacs-application-framework"]
-	path = lisp/packages/emacs-application-framework
-	url = https://github.com/emacs-eaf/emacs-application-framework.git
+path = lisp/packages/emacs-application-framework
+url = https://github.com/emacs-eaf/emacs-application-framework.git
+
 [submodule "lisp/packages/blink-search"]
-	path = lisp/packages/blink-search
-	url = https://github.com/manateelazycat/blink-search.git
+path = lisp/packages/blink-search
+url = https://github.com/manateelazycat/blink-search.git
+
 [submodule "lisp/packages/popweb"]
-	path = lisp/packages/popweb
-	url = https://github.com/manateelazycat/popweb.git
+path = lisp/packages/popweb
+url = https://github.com/manateelazycat/popweb.git
+
 [submodule "lisp/packages/sort-tab"]
-	path = lisp/packages/sort-tab
-	url = https://github.com/manateelazycat/sort-tab.git
+path = lisp/packages/sort-tab
+url = https://github.com/manateelazycat/sort-tab.git
+
 [submodule "lisp/packages/lazy-load"]
-	path = lisp/packages/lazy-load
-	url = https://github.com/manateelazycat/lazy-load.git
+path = lisp/packages/lazy-load
+url = https://github.com/manateelazycat/lazy-load.git
+
 [submodule "lisp/packages/one-key"]
-	path = lisp/packages/one-key
-	url = https://github.com/manateelazycat/one-key.git
+path = lisp/packages/one-key
+url = https://github.com/manateelazycat/one-key.git
+
 [submodule "lisp/packages/deno-bridge"]
-	path = lisp/packages/deno-bridge
-	url = https://github.com/manateelazycat/deno-bridge.git
+path = lisp/packages/deno-bridge
+url = https://github.com/manateelazycat/deno-bridge.git
+
 [submodule "lisp/packages/emacs-websocket"]
-	path = lisp/packages/emacs-websocket
-	url = https://github.com/ahyatt/emacs-websocket.git
+path = lisp/packages/emacs-websocket
+url = https://github.com/ahyatt/emacs-websocket.git
+
 [submodule "lisp/packages/insert-translated-name"]
-	path = lisp/packages/insert-translated-name
-	url = https://github.com/manateelazycat/insert-translated-name.git
+path = lisp/packages/insert-translated-name
+url = https://github.com/manateelazycat/insert-translated-name.git
+
 [submodule "lisp/packages/pangu-spacing"]
-	path = lisp/packages/pangu-spacing
-	url = https://github.com/coldnew/pangu-spacing.git
+path = lisp/packages/pangu-spacing
+url = https://github.com/coldnew/pangu-spacing.git
+
 [submodule "lisp/packages/awesome-tray"]
-	path = lisp/packages/awesome-tray
-	url = https://github.com/manateelazycat/awesome-tray.git
+path = lisp/packages/awesome-tray
+url = https://github.com/manateelazycat/awesome-tray.git
+
 [submodule "lisp/packages/yasnippet-snippets"]
-	path = lisp/packages/yasnippet-snippets
-	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+path = lisp/packages/yasnippet-snippets
+url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+
 [submodule "lisp/packages/fingertip"]
-	path = lisp/packages/fingertip
-	url = https://github.com/manateelazycat/fingertip.git
+path = lisp/packages/fingertip
+url = https://github.com/manateelazycat/fingertip.git
+
+[submodule "lisp/packages/compat"]
+	path = lisp/packages/compat
+	url = https://github.com/emacs-compat/compat

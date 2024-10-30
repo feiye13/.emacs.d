@@ -32,7 +32,6 @@
 
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
-;;(require 'init-flymake)
 (require 'init-web)
 (require 'init-rust-mode)
 (require 'init-treesit)
@@ -48,9 +47,6 @@
 (require 'init-insert-translated-name)
 (require 'init-awesome-tray)
 
-;; (require 'init-packages)
-;; (require 'init-completion)
-;; (require 'init-tools)
 
 )
 

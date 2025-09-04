@@ -10,6 +10,7 @@
     (load custom-file))
 
 (require 'init-base)
+(require 'init-package)
 (require 'init-ui)
 
 (provide 'init)

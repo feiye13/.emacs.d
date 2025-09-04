@@ -13,5 +13,7 @@
 (require 'init-package)
 (require 'init-ui)
 
+(require 'init-tools)
+
 (provide 'init)
 ;;; init.el ends here

@@ -16,6 +16,7 @@
   (package-refresh-contents))
 
 (setq use-package-always-ensure t)
+(setq use-package-always-defer t)
 
 (provide 'init-package)
 ;;; init-package.el ends here

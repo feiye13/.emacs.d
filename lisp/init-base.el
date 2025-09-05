@@ -25,14 +25,41 @@
 (setq confirm-kill-processes nil) ; 退出自动杀掉进程
 (setq word-wrap-by-category t) ;按照中文折行
 
-(add-hook 'after-init-hook 'save-place-mode) ; 保存光标位置
-(add-hook 'after-init-hook 'delete-selection-mode) ; 输入字符替换选中的文本
-(add-hook 'after-init-hook 'global-auto-revert-mode) ; 读取文件在 Emacs 外的修改
-(add-hook 'after-init-hook 'recentf-mode)
-(add-hook 'after-init-hook 'auto-save-visited-mode)
+(delete-selection-mode t) ; 输入字符替换选中的文本
+(global-auto-revert-mode t) ; 读取文件在 Emacs 外的修改
+(auto-save-visited-mode t)
+(electric-pair-mode t) ; 括号补全
+(show-paren-mode t) ; 括号匹配提示
 
-(add-hook 'prog-mode-hook 'electric-pair-mode) ; 括号补全
-(add-hook 'prog-mode-hook 'show-paren-mode) ; 括号匹配提示
+;; Save place
+(use-package saveplace
+  :hook (after-init . save-place-mode))
+
+;; History
+(use-package recentf
+  :bind (("C-x C-r" . recentf-open-files))
+  :hook (after-init . recentf-mode)
+  :init (setq recentf-max-saved-items 300
+              recentf-exclude
+              '("\\.?cache" ".cask" "url" "COMMIT_EDITMSG\\'" "bookmarks"
+                "\\.\\(?:gz\\|gif\\|svg\\|png\\|jpe?g\\|bmp\\|xpm\\)$"
+                "\\.?ido\\.last$" "\\.revive$" "/G?TAGS$" "/.elfeed/"
+                "^/tmp/" "^/var/folders/.+$" "^/ssh:" "/persp-confs/"
+                (lambda (file) (file-in-directory-p file package-user-dir))))
+  :config
+  (push (expand-file-name recentf-save-file) recentf-exclude)
+  (add-to-list 'recentf-filename-handlers #'abbreviate-file-name))
+
+(use-package savehist
+  :hook (after-init . savehist-mode)
+  :init (setq enable-recursive-minibuffers t ; Allow commands in minibuffers
+              history-length 1000
+              savehist-additional-variables '(mark-ring
+                                              global-mark-ring
+                                              search-ring
+                                              regexp-search-ring
+                                              extended-command-history)
+              savehist-autosave-interval 300))
 
 (provide 'init-base)
 ;;; init-base.el ends here

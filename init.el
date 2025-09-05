@@ -9,10 +9,10 @@
 (when (file-exists-p custom-file)
     (load custom-file))
 
-(require 'init-base)
 (require 'init-package)
-(require 'init-ui)
 
+(require 'init-base)
+(require 'init-ui)
 (require 'init-tools)
 
 (provide 'init)

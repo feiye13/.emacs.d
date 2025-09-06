@@ -26,6 +26,10 @@
   (("C-s" . consult-line)
    ("C-x b" . consult-buffer)))
 
+(use-package fanyi
+  :custom
+  (fanyi-providers '(;; 海词
+                     fanyi-haici-provider)))
 
 (provide 'init-tools)
 ;;; init-tools.el ends here

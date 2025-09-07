@@ -14,6 +14,7 @@
 (require 'init-base)
 (require 'init-ui)
 (require 'init-tools)
+(require 'init-dev)
 
 (provide 'init)
 ;;; init.el ends here

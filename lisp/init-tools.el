@@ -9,7 +9,8 @@
 
 (use-package orderless
   :custom
-  (completion-styles '(orderless)))
+  (completion-styles '(orderless basic))
+  (completion-category-overrides '((file (styles basic partial-completion)))))
 
 (use-package marginalia
   :init
@@ -29,7 +30,9 @@
 (use-package fanyi
   :custom
   (fanyi-providers '(;; 海词
-                     fanyi-haici-provider)))
+                     fanyi-haici-provider))
+  :bind
+  (("C-," . fanyi-dwim)))
 
 (provide 'init-tools)
 ;;; init-tools.el ends here

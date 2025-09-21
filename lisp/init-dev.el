@@ -22,6 +22,9 @@
   :bind
   ("C-c l f" . eglot-format))
 
+(use-package yasnippet
+  :init
+  (yas-global-mode 1))
 
 (provide 'init-dev)
 ;;; init-dev.el ends here

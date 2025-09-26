@@ -18,7 +18,7 @@
 (setq frame-resize-pixelwise t)
 
 ;; Maximize the frame
-(push '(fullscreen . maximized) initial-frame-alist)
+;; (push '(fullscreen . maximized) initial-frame-alist)
 
 (provide 'early-init)
 ;;; early-init.el ends here

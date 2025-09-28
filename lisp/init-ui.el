@@ -5,7 +5,6 @@
 
 ;; Cursor
 (blink-cursor-mode -1) ;; 关闭光标闪动
-(setq-default cursor-type 'box)
 
 (add-hook 'after-init-hook 'global-display-line-numbers-mode) ;; 显示行号
 (add-hook 'after-init-hook 'global-hl-line-mode) ;; 高亮光标所在行

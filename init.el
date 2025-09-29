@@ -12,7 +12,9 @@
 (require 'init-package)
 
 (require 'init-base)
+
 (require 'init-ui)
+(require 'init-meow)
 (require 'init-tools)
 (require 'init-dev)
 

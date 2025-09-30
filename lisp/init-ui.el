@@ -17,10 +17,8 @@
              '(default ((t (:family "LXGW WenKai Mono" :height 160 :weight Medium))))
              )))
 
-(use-package solarized-theme)
-
-(when (daemonp) (load-theme 'solarized-selenized-dark t))
-(when (display-graphic-p) (load-theme 'solarized-selenized-dark t))
+(when (daemonp) (load-theme 'modus-operandi-tinted))
+(when (display-graphic-p) (load-theme 'modus-operandi-tinted))
 
 (provide 'init-ui)
 ;;; init-ui.el ends here

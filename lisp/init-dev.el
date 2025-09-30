@@ -26,5 +26,9 @@
   :init
   (yas-global-mode 1))
 
+;; C
+(setq-default c-basic-offset 4)
+(setq-default c-default-style "k&r")
+
 (provide 'init-dev)
 ;;; init-dev.el ends here

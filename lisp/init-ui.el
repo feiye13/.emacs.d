@@ -7,6 +7,7 @@
 (blink-cursor-mode -1) ;; 关闭光标闪动
 
 (global-display-line-numbers-mode t) ;; 显示行号
+(setq display-line-numbers-type 'relative)
 (global-hl-line-mode t) ;; 高亮光标所在行
 
 

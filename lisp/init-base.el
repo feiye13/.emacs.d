@@ -25,6 +25,9 @@
 (setq confirm-kill-processes nil) ; 退出自动杀掉进程
 (setq word-wrap-by-category t) ;按照中文折行
 
+(setq scroll-margin 5)
+(setq scroll-conservatively 10000)
+
 (delete-selection-mode t) ; 输入字符替换选中的文本
 (global-auto-revert-mode t) ; 读取文件在 Emacs 外的修改
 (auto-save-visited-mode t)

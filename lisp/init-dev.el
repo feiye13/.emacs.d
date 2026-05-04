@@ -26,14 +26,24 @@
   :init
   (yas-global-mode 1))
 
-;; C
-(setq-default c-basic-offset 4)
-(setq-default c-default-style "k&r")
-
 ;;; treesit-auto
 (use-package treesit-auto
   :config
   (global-treesit-auto-mode))
+
+;;; c-ts-mode
+(use-package c-ts-mode
+  :ensure nil
+  :mode ("\\.c\\'" "\\.h\\'")
+  :hook ((c-ts-mode . (lambda ()
+                        (setq c-ts-mode-indent-offset 4)))))
+
+;;; yaml-ts-mode
+(use-package yaml-ts-mode
+  :ensure nil
+  :mode ("\\.ya?ml\\'" "\\.yaml\\'")
+  :hook ((yaml-ts-mode . (lambda ()
+                           (setq-local yaml-indent-offset 2)))))
 
 (provide 'init-dev)
 ;;; init-dev.el ends here

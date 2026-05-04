@@ -88,8 +88,6 @@
    '("<escape>" . ignore)))
 
 (use-package meow
-  :init
-  (require 'meow)
   :config
   (meow-setup)
   (meow-global-mode 1))

@@ -38,6 +38,8 @@
 (electric-pair-mode t) ; 括号补全
 (show-paren-mode t) ; 括号匹配提示
 
+(editorconfig-mode t)
+
 ;; Save place
 (use-package saveplace
   :hook (after-init . save-place-mode))

@@ -20,7 +20,9 @@
   :hook
   (prog-mode . eglot-ensure)
   :bind
-  ("C-c l f" . eglot-format))
+  ("C-c l f" . eglot-format)
+  :config
+  (setq eglot-ignored-server-capabilities '(:inlayHintProvider)))
 
 (use-package yasnippet
   :init
